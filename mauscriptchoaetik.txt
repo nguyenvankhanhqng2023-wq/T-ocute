@@ -43,12 +43,7 @@ local Window = Fluent:CreateWindow({
 
 -- 📑 Các tab (mục chính)
 local Tabs = {
-	Main0 = Window:AddTab({ Title = "một số kênh🤓" }),  -- 👈 đổi tên tab 1
-	Main1 = Window:AddTab({ Title = "grow a gaden 🌱🌴🌵🌲" }),  -- 👈 đổi tên tab 2
-	Main2 = Window:AddTab({ Title = "bran rót💩" }),     -- 👈 đổi tên tab 3
-	Main3 = Window:AddTab({ Title = "99 đêm🥷" }),        -- 👈 đổi tên tab 4
-	Main4 = Window:AddTab({ Title = "blox fruit🍎" }),    -- 👈 đổi tên tab 5
-	Main5 = Window:AddTab({ Title = "plan vs branro🌲🐘t" }) -- 👈 đổi tên tab 6
+	Main1 = Window:AddTab({ Title = "blox fruit🍎" }),    -- 👈 đổi tên tab5
 }
 
 ------------------------------------------------
@@ -82,8 +77,8 @@ Tabs.Main0:AddButton({
 -- TAB 2: Ví dụ thêm script
 ------------------------------------------------
 Tabs.Main1:AddButton({
-	Title = "speed hub🌱",                             -- 👈 tên nút hiển thị
-	Description = "bá",-- 👈 mô tả
+	Title = "bá k🌱",                             -- 👈 tên nút hiển thị
+	Description = "chức năng",-- 👈 mô tả
 	Callback = function()
 		local Settings = {
 			JoinTeam = "Pirates";   -- 👈 team mặc định: Pirates hoặc Marines
@@ -91,6 +86,5 @@ Tabs.Main1:AddButton({
 		}
 	getgenv().team = "Marines" -- Marines or Pirates
 _G.Translate = "English"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-Hinishi/Hinishi-Hub/refs/heads/main/Freemium.lua"))()
-   end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/rubuhubv5.lua"))()
 })
