@@ -84,7 +84,5 @@ Tabs.Main1:AddButton({
 			JoinTeam = "Pirates";   -- 👈 team mặc định: Pirates hoặc Marines
 			Translator = true;      -- 👈 bật dịch sang tiếng Việt nếu có
 		}
-	getgenv().team = "Marines" -- Marines or Pirates
-_G.Translate = "English"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/rubuhubv5.lua"))()
 })
